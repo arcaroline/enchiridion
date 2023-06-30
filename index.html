@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>The Enchiridion</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Stylesheets -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Nanum+Myeongjo&family=Quattrocento&family=Quicksand:wght@500&display=swap" rel="stylesheet">
+  <!-- My Stylesheet -->
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div class="main-container">
+    <div class="header">
+      <h1>The Enchiridion</h1>
+      <h3>By Epictetus</h3>
+    </div>
+
+    <div class="translations">
+      <span class="transText">Translation:</span>
+      <!-- OFFCANVAS -->
+      <button class="chapterBtn mainBtn" type="button" data-bs-toggle="offcanvas" data-bs-target="#higginson" aria-controls="offcanvasExample">By T.W Higginson (1865)</button>
+
+      <div class="offcanvas offcanvas-start" tabindex="-1" id="higginson" aria-labelledby="offcanvasExampleLabel">
+        <div class="offcanvas-header">
+          <h5 class="offcanvas-title" id="offcanvasExampleLabel">Contents</h5>
+          <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+          <div class="transGroup">
+            <h6>Other Translations</h6>
+            <li><a href="#">Elizabeth Carter (1750)</a></li>
+            <li><a href="#">Stephen Walton (1992)</a></li>
+            <li><a href="#">Caroline Haha (2021) - Pending</a> </li>
+          </div>
+
+          <div>
+            <h3>Chapter List</h3>
+            <div class="tableOfContents">
+              <button type="button" class="contentA chapter" id="0">Chapter 1: The Dichotomoy of Control</button>
+              <button type="button" class="contentA chapter" id="1">Chapter 2: Desire and Aversion</button>
+              <button type="button" class="contentA chapter" id="2">Chapter 3: Memento Mori</button>
+              <button type="button" class="contentA chapter" id="3">Chapter 4: Temperance</button>
+              <button type="button" class="contentA chapter" id="4">Chapter 5: Mindset / Views</button>
+              <button type="button" class="contentA chapter" id="5">Chapter 6: Happiness in Existence</button>
+              <button type="button" class="contentA chapter" id="6">Chapter 7: Focus</button>
+              <button type="button" class="contentA chapter" id="7">Chapter 8: Flow, Logos, Acceptance</button>
+              <button type="button" class="contentA chapter" id="8">Chapter 9: Inner Strenth</button>
+              <button type="button" class="contentA chapter" id="9">Chapter 10: Inner Power</button>
+              <button type="button" class="contentA chapter" id="10">Chapter 11: What is Lost is Restored</button>
+              <button type="button" class="contentA chapter" id="11">Chapter 12: The Price of Attaining Values</button>
+              <button type="button" class="contentA chapter" id="12">Chapter 13: Discreetness and Humility</button>
+              <button type="button" class="contentA chapter" id="13">Chapter 14: Evanescence</button>
+              <button type="button" class="contentA chapter" id="14">Chapter 15: Humility</button>
+              <button type="button" class="contentA chapter" id="15">Chapter 16: Beware of Your Views</button>
+              <button type="button" class="contentA chapter" id="16">Chapter 17: The Play</button>
+              <button type="button" class="contentA chapter" id="17">Chapter 18: Accepting Fate</button>
+              <button type="button" class="contentA chapter" id="18">Chapter 19: Inner Freedom</button>
+              <button type="button" class="contentA chapter" id="19">Chapter 20: On Anger</button>
+              <button type="button" class="contentA chapter" id="20">Chapter 21: Memento Mori</button>
+              <button type="button" class="contentA chapter" id="21">Chapter 22: On the Study of Philosophy</button>
+              <button type="button" class="contentA chapter" id="22">Chapter 23: Disregarding Externals</button>
+              <button type="button" class="contentA chapter" id="23">Chapter 24: On Patriotism</button>
+              <button type="button" class="contentA chapter" id="24">Chapter 25: Peace, Silence, Freedom</button>
+              <button type="button" class="contentA chapter" id="25">Chapter 26: Justice</button>
+              <button type="button" class="contentA chapter" id="26">Chapter 27: On Design and Purpose</button>
+              <button type="button" class="contentA chapter" id="27">Chapter 28: On Vigilance</button>
+              <button type="button" class="contentA chapter" id="28">Chapter 29: On Commitment</button>
+              <button type="button" class="contentA chapter" id="29">Chapter 30: On Duties and Responsibilities</button>
+              <button type="button" class="contentA chapter" id="30">Chapter 31: On Piety and Indifference</button>
+              <button type="button" class="contentA chapter" id="31">Chapter 32: Fate, Duties, Friendship</button>
+              <button type="button" class="contentA chapter" id="32">Chapter 33: GMRC</button>
+              <button type="button" class="contentA chapter" id="33">Chapter 34: Glory in Abstinence</button>
+              <button type="button" class="contentA chapter" id="34">Chapter 35: On Confidence and Candor</button>
+              <button type="button" class="contentA chapter" id="35">Chapter 36: On Courtesy</button>
+              <button type="button" class="contentA chapter" id="36">Chapter 37: On Integrity</button>
+              <button type="button" class="contentA chapter" id="37">Chapter 38: On Vigilance</button>
+              <button type="button" class="contentA chapter" id="38">Chapter 39: On Contentment</button>
+              <button type="button" class="contentA chapter" id="39">Chapter 40: On Shaping Behaviors</button>
+              <button type="button" class="contentA chapter" id="40">Chapter 41. Cultivating Reason above All</button>
+              <button type="button" class="contentA chapter" id="41">Chapter 42: On Compassion and Forgiveness</button>
+              <button type="button" class="contentA chapter" id="42">Chapter 43: Duties and Relations</button>
+              <button type="button" class="contentA chapter" id="43">Chapter 44: On False Logic</button>
+              <button type="button" class="contentA chapter" id="44">Chapter 45: On Hasty Judgments</button>
+              <button type="button" class="contentA chapter" id="45">Chapter 46: 'Be.', NOT 'I am...'</button>
+              <button type="button" class="contentA chapter" id="46">Chapter 47: On Grinding Silently</button>
+              <button type="button" class="contentA chapter" id="47">Chapter 48: The Boy and the Man</button>
+              <button type="button" class="contentA chapter" id="48">Chapter 49: Theory < Application</button>
+              <button type="button" class="contentA chapter" id="49">Chapter 50: Principles</button>
+              <button type="button" class="contentA chapter" id="50">Chapter 51: On Excellence</button>
+              <button type="button" class="contentA chapter" id="51">Chapter 52: On Application</button>
+              <button type="button" class="contentA chapter" id="52">Chapter 53: Flow</button>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="centerBox">
+      <div class="screen"></div>
+    </div>
+    <div class="navBox">
+      <button type="button" name="button" class="navBtn prevBtn mainBtn">
+        < </button>
+          <button type="button" name="button" class="navBtn nextBtn mainBtn"> > </button>
+    </div>
+    <footer>MMXXI</footer>
+  </div>
+
+  <div class="nmBtn"><a href="#">🔳</a> </div>
+  <script src="script.js" charset="utf-8"></script>
+</body>
+
+</html>
